@@ -6,4 +6,4 @@ Our project's goal was to predict the amount of crops produced in a year. Using 
 
 ## Main
 -----------
-<img src="./image/area_year.png">
+<img src="./images/area_year.png">
