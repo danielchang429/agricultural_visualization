@@ -22,4 +22,4 @@ As shown, the median of the production values, 841, was used to replace all of t
 ### Analysis
 <img src="./images/area_year.png" height="500" width="700"><img src="./images/tamilnadu_image.png" height="300" width="300">
 <h4> - (M = million(1,000,000)) (x = year, y = average area)</h4>
-As shown in the image, Tamilnadu is state in the most southern part of India. This graph shows the relationship between the average area used for the production of crops and the year in which it was recorded. 
+As shown in the image, Tamilnadu is a state in the most southern part of India. This graph shows the relationship between the average area used for the production of crops and the year in which it was recorded. The graph presents a point of max of around 12M in the year of 1998 and a low of around 3M in 2012. 
