@@ -26,3 +26,7 @@ As shown in the image, Tamilnadu is a state in the most southern part of India. 
 
 <img src="./images/district_area.png">
 The districts of Tamilnadu that were used for the purpose of agriculture can be shown with the graph above. This graph depicts the accumulation of land that were used from the year of 1997 to 2013 with a high of 459,259M of land was used from in the district of Villupuram and a low of 5496M of land was used in the district of The Nilgiris. 
+
+<img src="./images/area_production.png">
+<h4> - (Blue = Kharif (monsoon season)) (Red = Whole Year) (Green = Rabi (winter season))</h4>
+The production of crops is shown above in relation to the area used and the crop season. It is shown that the crops that are available for harvest all year long can result in the largest amount of crops compared to the Rabi crops that only have a few months for harvest. The Kharif crops are shown to fit in-between the two, in terms of production, for it has more time for harvest than the Rabi crops but less than the year-long crops. However, despite which seasonal crops are being harvested, as the given amount of land availalbe for farming does not affect the result of the production.
