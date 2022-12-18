@@ -30,3 +30,35 @@ The districts of Tamilnadu that were used for the purpose of agriculture can be 
 <img src="./images/area_production.png">
 <h4> - (Blue = Kharif (monsoon season)) (Red = Whole Year) (Green = Rabi (winter season))</h4>
 The production of crops is shown above in relation to the area used and the crop season. It is shown that the crops that are available for harvest all year long can result in the largest amount of crops compared to the Rabi crops that only have a few months for harvest. The Kharif crops are shown to fit in-between the two, in terms of production, for it has more time for harvest than the Rabi crops but less than the year-long crops. However, despite which seasonal crops are being harvested, as the given amount of land availalbe for farming does not affect the result of the production.
+
+### Mechine learning
+After thorough analyzation of the Tamilnadu Crop dataset, the use of machine learning classification was decided on. 
+
+At first, the use of machine learning regression was attempted. However, shortly after attempting to execute regression on the dataset, a problem of failing to train the data architecture was encountered. 
+
+<img src="./images/tamilnadu_dataset.PNG">
+When investigating the reason for the failure of using regression, a thorough check of the dataset was done. 
+The dataset's architecture could not support regression for the data did not have the requirement of having a linear architecture. 
+
+Once it was confirmed that regression would not support our dataset, the change of direction was done to attempt machine learning classification. 
+
+### Classification
+To perform classification, the X and Y values had to be decided on.
++ x (Crop year, area, production)
++ y (Season data)
+
+### Training Report
+<img src="./images/knn.png">
+Two models of classification were used, knn and random forest. First, the model knn was executed without any customization which resulted in accuracy of around 60-69%. 
+
+<img src="./images/knn_standardscalra.png">
+For the use of the basic form of the model knn resulted in a low accuracy, the normalization method standardscale was applied, to retry the knn model. 
+
+<h4>It resulted with an accuracy of 70-78%. Although the accuracy have gone up by a mere 10%, 
+  it is evident that the model knn is not well suited for the dataset at hand. </h4>
+  
++ RandomForest
+  + With the given range, RandomForest is a decision tree that chooses the best circumstances for an optimal result, also represented as an ensemble training method. 
+
+<img src="./images/knn_regression.png">
+<h4>One of the ensemble training methods, RandomForest resulted in a accuracy of 80-88%. Thus, a clear jump in accuracy, with a minium of 10% to a max of 25%, can be shown, resulting in using RandomForest as a superior model for our dataset.  </h4>
